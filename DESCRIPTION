@@ -1,0 +1,15 @@
+Package: fars
+Title: Mapping Accidents
+Version: 0.0.0.9001
+Authors@R: person("Reinhard", "Simon", email = "rsimon64@gmail.com", role = c("aut", "cre"))
+Description: It maps highway accidents in the US. This package is part of a programming assignment.
+Depends: R (>= 3.3.2)
+License:GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: tidyr, dplyr, magrittr, readr, maps, graphics
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
