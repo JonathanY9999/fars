@@ -11,3 +11,12 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
+
+
+# Installation
+
+```{r eval=FALSE}
+install.packages("devtools")
+devtools::install_github("c5sire/fars")
+library(fars)
+```
