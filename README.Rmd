@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-[![Travis-CI Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/)
+[![Travis-CI Build Status](https://travis-ci.org/c5sire/fars.svg?branch=master)](https://travis-ci.org/c5sire/fars)
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
@@ -12,6 +12,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Purpose
+
+This package was built as part of a programming assignment on Coursera.
+It provides a set of functions to read and visualize (map) *data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes* (from the assignment text).
 
 # Installation
 
